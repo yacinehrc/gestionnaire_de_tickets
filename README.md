@@ -1,1 +1,11 @@
 # Gestionnaire de Tickets
+
+~ PRÉSENTATION ~
+
+~ EXPLICATIONS ~
+
+~ FONCTIONNEMENT ~
+
+~ CODE ~
+
+~ PERSPECTIVES ENVISAGEABLES ~
