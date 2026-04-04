@@ -53,7 +53,7 @@ La structure de données a été conçue pour garantir l'intégrité et la traç
 2. Importer le fichier .sql dans PHPMyAdmin.
 3. Configurer config.php avec vos acces locaux.
 4. Lancer par localhost.
-5. # Système de Gestion de Tickets (IT Support)
+5. Système de Gestion de Tickets (IT Support)
 
 ##  Vision Approfondie du Projet
 Ce projet dépasse la simple interface de saisie. Il s'agit d'une solution full-stack conçue pour simuler un environnement de support technique réel, en mettant l'accent sur l'intégrité des données, la sécurité des accès et l'automatisation du flux de travail .
@@ -126,7 +126,7 @@ Ce dossier contient la connexion à la base de données.
 - Affiche toutes les informations globales  
 - Permet la gestion des utilisateurs et tickets  
 
-📸 Screenshot du code :
+
 ![Admin Code](./admin.png)
 
 ---
@@ -171,7 +171,7 @@ Ce dossier contient la connexion à la base de données.
 ---
 
 ### 7. Main (`index/`)
-- Redirection حسب rôle (admin / technicien / user)  
+- Redirection rôle (admin / technicien / user)  
 
 ![Index Code](./index.png)
 
@@ -185,6 +185,53 @@ Ce dossier contient la connexion à la base de données.
 4. Admin gère ou assigne ticket  
 5. Technicien traite ticket  
 6. Les modifications sont enregistrées dans `log_view`  
+
+---
+
+## Perspectives d’amélioration
+
+Dans le futur, plusieurs améliorations peuvent être envisagées pour enrichir le projet :
+
+-  Ajout d’un système de notifications (email ou en temps réel)  
+-  Intégration de statistiques et dashboards avancés  
+-  Ajout d’un système de priorisation intelligente des tickets  
+-  Implémentation d’un chat entre utilisateur et technicien  
+-  Ajout de pièces jointes dans les tickets  
+-  Amélioration de la sécurité (hash password, validation avancée)  
+-  Déploiement de l’application en ligne (hébergement web)  
+-  Version mobile ou responsive améliorée  
+
+---
+
+##  Conclusion
+
+Ce projet nous a permis de :
+
+- ✔️ Comprendre la structure d’une application web complète  
+- ✔️ Travailler avec une architecture modulaire  
+- ✔️ Gérer les rôles utilisateurs (Admin / Technicien / User)  
+- ✔️ Implémenter un système CRUD complet  
+- ✔️ Manipuler une base de données et les sessions  
+
+Il représente une base solide pour développer des applications plus complexes dans le futur.
+
+---
+
+## ⭐ GitHub
+
+Si vous trouvez ce projet intéressant, n’hésitez pas à :
+
+-  Liker le repository  
+-  Le fork  
+-  Proposer des améliorations  
+
+---
+
+##  Contact
+Pour toute question ou suggestion :
+
+- (https://www.linkedin.com/in/oumaima-saoui-4b0a9a387/)
+- (https://www.linkedin.com/in/yachar22/)
 
 ---
 
