@@ -1,12 +1,13 @@
 # Systeme de Gestion de Tickets - L'Atelier des Jeux
 
-Ce projet est une application web de gestion de tickets d'assistance technique, permettant aux utilisateurs de soumettre des problemes et aux techniciens de les resoudre.
+Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelier des jeux". Chaque personne peut se créer un compte et donc devenir utilisateur, ces personnes pourront faire un ticket qui a un sujet, un menu déroulant pour choisir la catégorie de sa demande et une description à ajouter pour plus de précisions. Ces tickets seront reçus par le technicien sur son dashboard, il gère les tickets donc les résoudre, indiquer s'ils sont ouverts (pas traîtés), en cours, ou fermés (terminés). Et l'administrateur, lui, gère les utilisateurs, qui se connecte et quand, avec les heures précises et le pouvoir de créer, lire, modifier et supprimer un utilisateur, un technicien ou un admin.
 
 ## Fonctionnalites
-- Authentification Multi-roles : Administrateur, Technicien, Utilisateur.
-- Gestion des Tickets : Creation, suivi de statut (Ouvert, En cours, Ferme).
-- Tableau de Bord Admin : Statistiques en temps reel sur les utilisateurs et les tickets.
-- Securite : Protection des routes et hachage des mots de passe.
+- Authentification Multi-roles : Administrateur, Technicien, Utilisateur, Inactif.
+- Gestion des Tickets : Creation, suivi de statut (Ouvert, En cours, Fermé).
+- Tableau de Bord Admin : Statistiques en temps réél sur les utilisateurs.
+- Tableau de Bord Technicien : Statistiques en temps réél sur les tickets crééent.
+- Sécurité : Hachage des mots de passe.    
 
 ## Apercu du Projet
 
