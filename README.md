@@ -12,12 +12,22 @@ Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelie
 ## Apercu du Projet
 
 ### 1. Interface de Connexion
-![Login](login.png)
 
 ### 2. Dashboard Administrateur
-![Admin Dashboard](dashboard.png)
 
-### 3. Structure de la Base de Donnees
+### 3. Gestion des Comptes
+
+### 4. Tableau des Logs de Connexion
+
+### 5. Paramètres du Compte Administrateur
+
+
+
+
+
+
+
+### . Structure de la Base de Donnees
 ![Database](database.png)
 
 ---
