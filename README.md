@@ -105,121 +105,23 @@ La structure de données a été conçue pour garantir l'intégrité et la traç
 
 Vous pouvez également créer votre propre utilisateur en vous créeant un compte en appuyant sur "Créer un compte", en entrant votre nom, prénom, adresse mail et un mot de passe.
 
---
-```
-
-
-##  Explication du code
-
-###  1. Configuration (`config/`)
-Ce dossier contient la connexion à la base de données.
-
-- Fichier principal : connexion DB  
-- Utilisé dans tout le projet  
-
-
-![Config Code](./config.png)
-
 ---
 
-###  2. Authentication (`auth_check/`, `login/`, `register/`, `logout/`)
+## Explication du Code
 
-####  `auth_check/`
-- Vérifie si l’utilisateur est connecté  
-- Protège les pages sensibles  
+! ! !  À faire  ! ! !
 
-####  `login/`
-- Vérifie email + password  
-- Crée une session  
-
-####  `register/`
-- Ajoute un nouvel utilisateur dans la base  
-
-####  `logout/`
-- Supprime la session  
-
-![Auth Code](./auth.png)
-
----
-
-### 3. Admin Dashboard (`admin_dashboard/`)
-- Affiche toutes les informations globales  
-- Permet la gestion des utilisateurs et tickets  
-
-
-![Admin Code](./admin.png)
-
----
-
-###  4. Technicien (`tech_dashboard/`)
-- Affiche les tickets assignés  
-- Permet de modifier le statut  
-
-![Tech Code](./tech.png)
-
----
-
-###  5. Utilisateur (`user_ticket/`, `profil/`)
-
-#### `user_ticket/`
-- Création de ticket  
-- Envoi vers la base de données  
-
-####  `profil/`
-- Informations utilisateur  
-
-![User Code](./user.png)
-
----
-
-### 6. Gestion des tickets
-
-####  `gestion_tickets/`
-- CRUD des tickets (Create, Read, Update, Delete)  
-
-####  `view_ticket/`
-- Affiche les détails d’un ticket  
-
-####  `modifier_statut/`
-- Change l’état du ticket  
-
-####  `log_view/`
-- Sauvegarde l’historique des modifications  
-
-![Tickets Code](./tickets.png)
-
----
-
-### 7. Main (`index/`)
-- Redirection rôle (admin / technicien / user)  
-
-![Index Code](./index.png)
-
----
-
-## Logique globale du code
-
-1. L’utilisateur se connecte  
-2. Le système vérifie avec `auth_check`  
-3. User crée ticket (`user_ticket`)  
-4. Admin gère ou assigne ticket  
-5. Technicien traite ticket  
-6. Les modifications sont enregistrées dans `log_view`  
-
----
+--- 
 
 ## Perspectives d’amélioration
 
 Dans le futur, plusieurs améliorations peuvent être envisagées pour enrichir le projet :
 
--  Ajout d’un système de notifications (email ou en temps réel)  
--  Intégration de statistiques et dashboards avancés  
--  Ajout d’un système de priorisation intelligente des tickets  
+-  Ajout d’un système de notifications (email ou en temps réel)
+-  Ajout d’un système de priorisation des tickets  
 -  Implémentation d’un chat entre utilisateur et technicien  
--  Ajout de pièces jointes dans les tickets  
--  Amélioration de la sécurité (hash password, validation avancée)  
--  Déploiement de l’application en ligne (hébergement web)  
--  Version mobile ou responsive améliorée  
+-  Ajout de pièces jointes dans les tickets
+-  Amélioration de la sécurité (mail de confirmation, authentification à 2 facteurs)  
 
 ---
 
@@ -227,31 +129,18 @@ Dans le futur, plusieurs améliorations peuvent être envisagées pour enrichir 
 
 Ce projet nous a permis de :
 
-- ✔️ Comprendre la structure d’une application web complète  
-- ✔️ Travailler avec une architecture modulaire  
-- ✔️ Gérer les rôles utilisateurs (Admin / Technicien / User)  
-- ✔️ Implémenter un système CRUD complet  
-- ✔️ Manipuler une base de données et les sessions  
-
-Il représente une base solide pour développer des applications plus complexes dans le futur.
-
----
-
-## ⭐ GitHub
-
-Si vous trouvez ce projet intéressant, n’hésitez pas à :
-
--  Liker le repository  
--  Le fork  
--  Proposer des améliorations  
+- Comprendre la structure d’un gestionnaire de tickets (de la base de donnée au code)
+- Gérer les rôles (Admin/Technicien/User)
+- Implémenter un système CRUD complet
+- Manipuler une base de données et les sessions
 
 ---
 
 ##  Contact
 Pour toute question ou suggestion :
 
-- (https://www.linkedin.com/in/oumaima-saoui-4b0a9a387/)
-- (https://www.linkedin.com/in/yachar22/)
+- https://www.linkedin.com/in/oumaima-saoui-4b0a9a387/
+- https://www.linkedin.com/in/yachar22/
 
 ---
 
