@@ -1,4 +1,9 @@
 <?php
+// Pour afficher les erreurs de connexion à la base de données ou autres problèmes, on active l'affichage des erreurs en développement
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 session_start();
 include('config.php');
 $error = "";
