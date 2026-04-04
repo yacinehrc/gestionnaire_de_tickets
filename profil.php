@@ -41,7 +41,22 @@
   </div>
   <div class="w3-container w3-padding-16">
     <h5><b><?php echo htmlspecialchars($_SESSION['nom']); ?></b></h5>
-    <span class="w3-tag w3-green w3-round">Utilisateur</span>
+    
+    <?php 
+      // Détermination de la couleur et du texte selon le rôle
+      $role = $_SESSION['role'] ?? 'utilisateur';
+      $colorClass = "w3-green"; // Par défaut Vert (Utilisateur)
+      
+      if ($role === 'admin') {
+          $colorClass = "w3-blue"; // Bleu pour Admin
+      } elseif ($role === 'technicien') {
+          $colorClass = "w3-orange"; // Orange pour Technicien
+      }
+    ?>
+
+    <span class="w3-tag <?php echo $colorClass; ?> w3-round">
+      <?php echo ucfirst(htmlspecialchars($role)); ?>
+    </span>
   </div>
   <hr>
   <div class="w3-bar-block">
