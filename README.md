@@ -43,20 +43,17 @@ Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelie
 
 ### Table "utilisateurs"
 
-## MCD de la Base de Données
+## Conception de la Base de Données
 
 La structure de données a été conçue pour garantir l'intégrité et la traçabilité des tickets. Voici le Modèle Conceptuel de Données (MCD) du projet :
 
 ![Modèle Conceptuel de Données - Gestion de Tickets](./mcd.jpeg)
 
-### 📂 Description des Entités :
-* **Utilisateurs** : Gère les comptes (Admin, Technicien, Client).
-* **Tickets** : Contient le titre, la description, la date et le statut (Ouvert/Fermé).
-* **Services/Catégories** : Permet de classer les incidents (Réseau, Matériel, Logiciel).
-* **Interventions** : Historique des actions effectuées par le technicien sur un ticket.
+### Dictionnaire de Données (utilisateur)
+
+### Dictionnaire de Données (tickets)
 
 ---
-
 
 ## Technologies Utilisees
 - Backend : PHP (PDO)
