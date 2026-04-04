@@ -15,6 +15,10 @@ Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelie
 <img width="1914" height="916" alt="connexion" src="https://github.com/user-attachments/assets/26d00138-6744-4a44-8ad5-108486dd6b88" />
 
 
+### Interface de Création de Compte
+<img width="1911" height="914" alt="creation_de_compte" src="https://github.com/user-attachments/assets/9a899c66-4976-48f1-a802-bed05155fcd9" />
+
+
 ## Administrateur
 ### Dashboard Administrateur
 <img width="1909" height="916" alt="dashboard_admin" src="https://github.com/user-attachments/assets/48b22743-99e3-4ee9-a44c-bba99ed25f17" />
