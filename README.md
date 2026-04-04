@@ -37,11 +37,13 @@ Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelie
 ### Paramètres du Compte Utilisateur
 
 ## Structure de la Base de Donnees
-![Database](database.png)
+### Les Différentes Tables
 
----
+### Table "tickets"
 
-## Conception de la Base de Données (MCD)
+### Table "utilisateurs"
+
+## MCD de la Base de Données
 
 La structure de données a été conçue pour garantir l'intégrité et la traçabilité des tickets. Voici le Modèle Conceptuel de Données (MCD) du projet :
 
