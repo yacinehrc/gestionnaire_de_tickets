@@ -12,36 +12,64 @@ Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelie
 ## Apercu du Projet
 
 ### Interface de Connexion
+<img width="1914" height="916" alt="connexion" src="https://github.com/user-attachments/assets/26d00138-6744-4a44-8ad5-108486dd6b88" />
+
 
 ## Administrateur
 ### Dashboard Administrateur
+<img width="1909" height="916" alt="dashboard_admin" src="https://github.com/user-attachments/assets/48b22743-99e3-4ee9-a44c-bba99ed25f17" />
+
 
 ### Gestion des Comptes
+<img width="1894" height="918" alt="gestion_utilisateurs_admin" src="https://github.com/user-attachments/assets/0a9526af-5d9f-43f8-8773-0c926a554ac0" />
+
 
 ### Tableau des Logs de Connexion
+<img width="1909" height="914" alt="historique_de_connexions_admin" src="https://github.com/user-attachments/assets/73d10e3f-20b1-4ad5-bb8d-50f7f1f9d36a" />
+
 
 ### Paramètres du Compte Administrateur
+<img width="1907" height="910" alt="parametres_admin" src="https://github.com/user-attachments/assets/a6382dbf-341e-4d9c-90d6-4b6a5de7e175" />
+
 
 ## Technicien 
 ### Dashboard Technicien
+<img width="1911" height="911" alt="dashboard_technicien" src="https://github.com/user-attachments/assets/85400624-3baf-4624-82d7-8fcfdd26423e" />
+
 
 ### Vue d'un Ticket
+<img width="1913" height="914" alt="ticket_technicien" src="https://github.com/user-attachments/assets/8909dbc4-8e06-4539-8388-9f5ab6f06c0d" />
+
 
 ### Paramètres du Compte Technicien
+<img width="1912" height="912" alt="parametres_technicien" src="https://github.com/user-attachments/assets/20c76e92-72f5-46ef-a61a-edfa9378c9be" />
+
 
 ## Utilisateur
 ### Dashboard Utilisateur
+<img width="1910" height="913" alt="dashboard_utilisateur" src="https://github.com/user-attachments/assets/0dcf10c9-5b17-489b-9fb2-e54a19af15ef" />
+
 
 ### Historique des tickets de l'Utilisateur
+<img width="1908" height="912" alt="historique_tickets_utilisateur" src="https://github.com/user-attachments/assets/74ea4578-2d75-451f-87c5-92d08fe16663" />
+
 
 ### Paramètres du Compte Utilisateur
+<img width="1909" height="911" alt="parametres_utilisateur" src="https://github.com/user-attachments/assets/8f554a63-7bbf-430d-86a4-8dded40411b0" />
+
 
 ## Structure de la Base de Donnees
 ### Les Différentes Tables
+<img width="1022" height="175" alt="bdd" src="https://github.com/user-attachments/assets/39cd07f5-f0ec-4279-a990-3ce9c82ec4e2" />
+
 
 ### Table "tickets"
+<img width="1271" height="345" alt="detail_table_tickets" src="https://github.com/user-attachments/assets/60044110-b874-4545-9629-735845122324" />
+
 
 ### Table "utilisateurs"
+<img width="970" height="370" alt="detail_table_utilisateurs" src="https://github.com/user-attachments/assets/8ddf3edc-face-4654-9f78-08cf2204dfcf" />
+
 
 ## Conception de la Base de Données
 
@@ -50,8 +78,12 @@ La structure de données a été conçue pour garantir l'intégrité et la traç
 ![Modèle Conceptuel de Données - Gestion de Tickets](./mcd.jpeg)
 
 ### Dictionnaire de Données (utilisateur)
+<img width="883" height="151" alt="ddd_utilisateurs" src="https://github.com/user-attachments/assets/a95e8ac7-37ed-4c81-b5ec-8529064bcf8c" />
+
 
 ### Dictionnaire de Données (tickets)
+<img width="866" height="193" alt="ddd_tickets" src="https://github.com/user-attachments/assets/171ff625-473b-4fc6-8851-3f5c78ea0726" />
+
 
 ---
 
