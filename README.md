@@ -92,58 +92,20 @@ La structure de données a été conçue pour garantir l'intégrité et la traç
 ---
 
 ## Technologies Utilisees
-- Backend : PHP (PDO)
-- Frontend : HTML5, CSS3 (W3.CSS / Bootstrap)
-- Base de donnees : MySQL (XAMPP / PHPMyAdmin)
+- Backend : PHP
+- Frontend : HTML/CSS (W3.CSS)
+- Base de donnees : MySQL (XAMPP)
 
 ## Identifiants de Test
 | Role | Identifiant | Mot de passe |
 | :--- | :--- | :--- |
-| Administrateur | admin | admin123 |
 | Technicien | technicien | tech123 |
 | Utilisateur | mdupont | password |
 
 
 Vous pouvez également créer votre propre utilisateur en vous créeant un compte en appuyant sur "Créer un compte", en entrant votre nom, prénom, adresse mail et un mot de passe.
 
-## Installation Locale
-1. Cloner le projet : git clone https://github.com/oumaimasaoui377/gestionnaire_de_tickets.git
-2. Importer le fichier .sql dans PHPMyAdmin.
-3. Configurer config.php avec vos acces locaux.
-4. Lancer par localhost.
-5. Système de Gestion de Tickets (IT Support)
-
-##  Vision Approfondie du Projet
-Ce projet dépasse la simple interface de saisie. Il s'agit d'une solution full-stack conçue pour simuler un environnement de support technique réel, en mettant l'accent sur l'intégrité des données, la sécurité des accès et l'automatisation du flux de travail .
-
----
-
-## Architecture Technique & Logique
-
-### 1. Le Modèle Conceptuel 
-Le système repose sur une architecture relationnelle robuste sous **MySQL**. La logique métier est centrée sur la relation entre les entités :
-* **Gestion des Rôles :** Utilisation de sessions PHP pour segmenter les privilèges (Admin vs Technicien vs Client).
-* **Intégrité Référentielle :** Liaison stricte entre les tables `Users` et `Tickets` via des clés étrangères, garantissant qu'aucun ticket n'est "orphelin".
-
-### 2. Flux de Travail 
-Le projet implémente un cycle de vie dynamique pour chaque incident :
-1.  **Soumission :** Capture de l'incident avec horodatage automatique.
-2.  **Traitement :** Changement d'état en temps réel dans la base de données lors de l'attribution à un technicien.
-3.  **Résolution :** Archivage logique de l'incident après confirmation de clôture.
-
-### 3. Sécurité & Optimisation
-* **Protection SQL :** Implémentation de requêtes préparées (PDO) pour contrer les injections SQL.
-* **Contrôle d'Accès :** Système de filtrage par session pour empêcher l'accès direct aux URLs sensibles (ex: `admin_dashboard.php`) sans authentification préalable.
-
----
-
-##  Structure du Système
-```text
-├── config/             # Connexion PDO sécurisée
-├── core/               # Logique métier et fonctions de sécurité
-├── public/             # Assets (CSS personnalisé, JS, Images)
-├── views/              # Interfaces utilisateurs (Vues)
-└── database/           # Script SQL complet (MCD/MLD)
+--
 ```
 
 
