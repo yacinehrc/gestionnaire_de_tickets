@@ -4,7 +4,7 @@ Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelie
 
 ## Fonctionnalites
 - Authentification Multi-roles : Administrateur, Technicien, Utilisateur, Inactif.
-- Gestion des Tickets : Creation, suivi de statut (Ouvert, En cours, Fermé).
+- Gestion des Tickets : Créer, lire (suivi de statut (Ouvert, En cours, Fermé)), modifier et supprimer.
 - Tableau de Bord Admin : Statistiques en temps réél sur les utilisateurs.
 - Tableau de Bord Technicien : Statistiques en temps réél sur les tickets crééent.
 - Sécurité : Hachage des mots de passe.    
