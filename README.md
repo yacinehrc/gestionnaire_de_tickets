@@ -47,6 +47,8 @@ La structure de données a été conçue pour garantir l'intégrité et la traç
 | Administrateur | admin | admin123 |
 | Technicien | technicien | tech123 |
 | Utilisateur | mdupont | password |
+
+
 Vous pouvez également créer votre propre utilisateur en vous créeant un compte en appuyant sur "Créer un compte", en entrant votre nom, prénom, adresse mail et un mot de passe.
 
 ## Installation Locale
