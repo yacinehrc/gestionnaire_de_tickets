@@ -11,32 +11,32 @@ Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelie
 
 ## Apercu du Projet
 
-## 1. Interface de Connexion
+### Interface de Connexion
 
 ## Administrateur
-## 2. Dashboard Administrateur
+### Dashboard Administrateur
 
-## 3. Gestion des Comptes
+### Gestion des Comptes
 
-4. Tableau des Logs de Connexion
+### Tableau des Logs de Connexion
 
-5. Paramètres du Compte Administrateur
+### Paramètres du Compte Administrateur
 
-### Technicien 
-6. Dashboard Technicien
+## Technicien 
+### Dashboard Technicien
 
-7. Vue d'un Ticket
+### Vue d'un Ticket
 
-8. Paramètres du Compte Technicien
+### Paramètres du Compte Technicien
 
-### Utilisateur
-9. Dashboard Utilisateur
+## Utilisateur
+### Dashboard Utilisateur
 
-10. Historique des tickets de l'Utilisateur
+### Historique des tickets de l'Utilisateur
 
-11. Paramètres du Compte Utilisateur
+### Paramètres du Compte Utilisateur
 
-### . Structure de la Base de Donnees
+## Structure de la Base de Donnees
 ![Database](database.png)
 
 ---
