@@ -1,8 +1,13 @@
 <?php
-$host = 'localhost';
-$dbname = 'atelier_des_jeux';
-$user = 'root';
-$pass = '';
+date_default_timezone_set('Europe/Paris');
+
+/**
+ * PARAMÈTRES DE CONNEXION
+ */
+$host = 'sql113.infinityfree.com';
+$dbname = 'if0_41051738_atelier_des_jeux';
+$user = 'if0_41051738';
+$pass = '64DdaZ06j2C2kf'; 
 
 try {
     // Connexion PDO
