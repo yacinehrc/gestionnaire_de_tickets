@@ -18,9 +18,9 @@ Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelie
 
 ## 3. Gestion des Comptes
 
-## 4. Tableau des Logs de Connexion
+4. Tableau des Logs de Connexion
 
-## 5. Paramètres du Compte Administrateur
+5. Paramètres du Compte Administrateur
 
 ### Technicien 
 6. Dashboard Technicien
