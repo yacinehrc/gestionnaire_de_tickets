@@ -13,7 +13,7 @@ Ce projet est un gestionnaire de tickets fonctionnel pour la société "L'atelie
 
 ## 1. Interface de Connexion
 
-### Administrateur
+## Administrateur
 ## 2. Dashboard Administrateur
 
 ## 3. Gestion des Comptes
