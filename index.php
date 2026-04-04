@@ -9,10 +9,12 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 // Si connecté, on redirige selon le rôle
-if ($_SESSION['role'] == 'admin' || $_SESSION['role'] == 'technicien') {
-    header('Location: admin_dashboard.php'); // Interface complète 
+if ($_SESSION['role'] == 'admin') {
+    header('Location: admin_dashboard.php'); // Interface Admin
+} elseif ($_SESSION['role'] == 'technicien') {
+    header('Location: tech_dashboard.php');  // Interface Technicien
 } else {
-    header('Location: user_ticket.php'); // Formulaire de demande 
+    header('Location: user_ticket.php');     // Formulaire Utilisateur
 }
 exit();
 ?>

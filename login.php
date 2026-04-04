@@ -44,13 +44,26 @@ if (isset($_POST['connexion'])) {
     <title>Connexion - L'Atelier des Jeux</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <style>body, h1, h2 { font-family: "Raleway", sans-serif; }</style>
+<link rel="icon" type="image/x-icon" href="atelierlogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body, h1, h2 { font-family: "Raleway", sans-serif; }
+        @media screen and (max-width: 768px) {
+            .w3-display-middle { padding: 10px; }
+            .w3-card-4 { margin: 10px; }
+            .w3-input, .w3-button { width: 100%; box-sizing: border-box; margin: 5px 0; }
+            h3 { font-size: 1.4em; }
+        }
+    </style>
+
 </head>
 <body class="w3-dark-grey">
     <div class="w3-display-middle" style="width:100%; max-width:400px; padding:16px;">
         <div class="w3-card-4 w3-white w3-round-large">
             <div class="w3-container w3-blue w3-round-large w3-center">
-                <h3>Support Service</h3>
+                <h3>Atelier des Jeux - Support Service</h3>
+                <p>Connectez-vous pour accéder à votre espace de support</p>
+
             </div>
             <form class="w3-container w3-padding-24" method="POST">
                 <?php if($error) echo "<p class='w3-text-red'>$error</p>"; ?>

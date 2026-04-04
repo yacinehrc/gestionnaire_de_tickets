@@ -27,10 +27,17 @@ $p_ferme = ($ferme / $total_div) * 100;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="atelierlogo.png">
     <style>
         body, h1, h2, h3, h4, h5 { font-family: "Raleway", sans-serif; }
         /* Force la hauteur totale et le placement */
         .w3-sidebar { height: 100% !important; position: fixed; bottom: 0; }
+        @media screen and (max-width: 768px) {
+            .w3-main { margin-left: 0 !important; }
+            .w3-responsive table, .w3-table { font-size: 0.9em; }
+            .w3-col { width: 100%; }
+            h5 { font-size: 1.1em; }
+        }
     </style>
 </head>
 <body class="w3-light-grey">
@@ -48,9 +55,9 @@ $p_ferme = ($ferme / $total_div) * 100;
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey"><i class="fa fa-remove fa-fw"></i> Fermer</a>
     
-    <a href="tech_dashboard.php" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-ticket fa-fw"></i> Tous les Tickets</a>
+    <!-- <a href="tech_dashboard.php" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-ticket fa-fw"></i> Tous les Tickets</a> -->
     <a href="profil.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i> Paramètres</a>
-    <a href="logout.php" class="w3-bar-item w3-button w3-padding w3-text-red"><i class="fa fa-sign-out fa-fw"></i> Déconnexion</a>
+   
   </div>
 </nav>
 

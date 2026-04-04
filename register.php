@@ -28,7 +28,16 @@ if(isset($_POST['reg'])){
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>body, h1, h2 { font-family: "Raleway", sans-serif; }</style>
+<link rel="icon" type="image/x-icon" href="atelierlogo.png">
+    <style>
+        body, h1, h2 { font-family: "Raleway", sans-serif; }
+        @media screen and (max-width: 768px) {
+            .w3-row-padding .w3-half { width: 100%; padding: 5px 0; }
+            .w3-input, .w3-button, .w3-card-4 { width: 100%; box-sizing: border-box; margin: 5px 0; }
+            h3 { font-size: 1.3em; }
+            .w3-display-middle { padding: 10px; }
+        }
+    </style>
 </head>
 <body class="w3-dark-grey">
 

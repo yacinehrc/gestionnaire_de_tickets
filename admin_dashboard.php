@@ -27,9 +27,17 @@ $p_user  = ($nb_user / $total_div) * 100;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="atelierlogo.png">
     <style>
         body { font-family: "Raleway", sans-serif; }
         .w3-sidebar { z-index: 3; width: 300px; height: 100%; position: fixed; }
+        @media screen and (max-width: 768px) {
+            .w3-main { margin-left: 0 !important; }
+            .w3-row-padding > div { width: 100%; }
+            .w3-col { width: 100%; margin-bottom: 10px; }
+            h5, h4 { font-size: 1.1em; }
+            .w3-xxlarge { font-size: 2em; }
+        }
     </style>
 </head>
 <body class="w3-light-grey">
@@ -39,19 +47,20 @@ $p_user  = ($nb_user / $total_div) * 100;
     <h5><b>L'Atelier des Jeux</b></h5>
   </div>
   <div class="w3-container w3-padding-16">
-    <h5>Bienvenue, <b><?php echo htmlspecialchars($_SESSION['nom']); ?></b></h5>
+    <h5>Bienvenue, <b>Admin</b></h5>
     <span class="w3-tag w3-blue w3-round">Administrateur</span>
   </div>
   <hr>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey"><i class="fa fa-remove"></i> Fermer</a>
-    <a href="admin_users.php" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i> Gestion Comptes</a>
+    <a href="admin_dashboard.php" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+    <a href="admin_user.php" class="w3-bar-item w3-button w3-padding "><i class="fa fa-users fa-fw"></i> Gestion Comptes</a>
     <a href="log_view.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i> Logs Connexions</a>
-    <a href="logout.php" class="w3-bar-item w3-button w3-padding w3-text-red"><i class="fa fa-sign-out fa-fw"></i> Déconnexion</a>
+    <a href="profil.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i> Paramètres</a>
+    
   </div>
 </nav>
 
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay" ></div>
 
 <div class="w3-bar w3-top w3-black w3-large w3-hide-large" style="z-index:4">
   <button class="w3-bar-item w3-button w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i> Menu</button>
@@ -65,7 +74,7 @@ $p_user  = ($nb_user / $total_div) * 100;
 
     <div class="w3-row-padding w3-margin-bottom">
         <div class="w3-col s12 m6">
-            <a href="admin_users.php" style="text-decoration:none">
+            <a href="admin_user.php" style="text-decoration:none">
                 <div class="w3-container w3-blue w3-padding-16 w3-card w3-round w3-hover-opacity">
                     <div class="w3-left"><i class="fa fa-user-plus w3-xxlarge"></i></div>
                     
