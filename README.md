@@ -107,6 +107,60 @@ Vous pouvez également créer votre propre utilisateur en vous créeant un compt
 
 ---
 
+
+
+
+
+## Explication des Fichiers 
+
+📁 Cœur du Système
+config.php : Point central de connexion à la base de données. Il définit le fuseau horaire et configure le mode d'erreur PDO pour faciliter le débogage.
+
+auth_check.php : Script de sécurité inclus sur chaque page protégée. Il vérifie l'existence de la session et gère la désactivation automatique des comptes inactifs après un mois.
+
+index.php : Aiguilleur principal (Router). Il redirige l'utilisateur vers le bon tableau de bord en fonction de son rôle (admin, technicien, ou utilisateur).
+
+🔐 Authentification & Profils
+login.php : Gère la connexion des utilisateurs avec vérification des identifiants et hachage MD5.
+
+register.php : Formulaire d'inscription créant automatiquement un identifiant (initiale du prénom + nom) et assignant le rôle utilisateur par défaut.
+
+logout.php : Détruit la session et redirige vers l'accueil.
+
+profil.php : Permet à l'utilisateur de modifier ses informations personnelles, notamment son mot de passe.
+
+🎫 Gestion des Tickets
+user_ticket.php : Interface de création de tickets pour les clients/utilisateurs.
+
+gestion_tickets.php : Liste complète des tickets appartenant à l'utilisateur connecté.
+
+details_ticket.php : Vue détaillée d'un ticket spécifique (sécurisée pour n'afficher que ses propres tickets).
+
+view_ticket.php : Interface technique permettant de visualiser un ticket et de mettre à jour son statut (ouvert, en cours, fermé).
+
+modifier_statut.php : Script de traitement rapide utilisé par l'administration pour changer l'état d'un ticket.
+
+🛡️ Administration & Dashboard
+admin_dashboard.php : Tableau de bord global affichant les statistiques de répartition des utilisateurs et les dernières activités.
+
+tech_dashboard.php : Interface dédiée aux techniciens pour le suivi des volumes de tickets par statut.
+
+admin_user.php / edit_user.php : Outils de gestion CRUD (Créer, Lire, Mettre à jour, Supprimer) pour administrer les comptes utilisateurs.
+
+log_view.php : Historique des connexions et des actions pour assurer la traçabilité du système.
+
+🔒 Sécurité Mise en Œuvre
+Requêtes Préparées : Utilisation systématique de prepare() et execute() pour prévenir les injections SQL.
+
+Protection XSS : Utilisation de htmlspecialchars() lors de l'affichage des données saisies par les utilisateurs.
+
+Gestion des Sessions : Isolation des interfaces par vérification stricte de la variable $_SESSION['role'].
+
+Audit : Système de logs pour tracer les modifications critiques (changements de statuts, etc.).
+
+
+
+
 ## Explication du Code
 
 ### 1. Architecture Technique
