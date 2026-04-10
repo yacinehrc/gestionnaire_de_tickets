@@ -110,7 +110,7 @@ Vous pouvez également créer votre propre utilisateur en vous créeant un compt
 ## Explication du Code
 
 ### 1. Architecture Technique
-![index](index1.png)3. Interface Utilisateur5. Modification du Statut
+![index](index1.png)
 ![index](index2.png)
 
 ### 2.Gestion des Accès et Sécurité
@@ -123,7 +123,7 @@ Vous pouvez également créer votre propre utilisateur en vous créeant un compt
 
 ### 4. Interface Technicien
 ![technicien](tech1.png)
-![technicien](tech1.png)
+![technicien](tech2.png)
 
 ### 5. Modification du Statut
 ![modification](viewtech.png)
