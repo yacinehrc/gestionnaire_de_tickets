@@ -163,29 +163,45 @@ Audit : Système de logs pour tracer les modifications critiques (changements de
 
 ## Explication du Code
 
-### 1. Architecture Technique
+### 1. La Vérification d'Authentification
+Explication flash : Vérification de la session pour bloquer l'accès aux utilisateurs non connectés.
 ![index](index1.png)
+Code : $stmt->prepare("... WHERE id_t = ?")
+Signif : Bloque les injections SQL en nettoyant les données avant l'exécution.
+
+
+### 2. L'Aiguillage selon le Rôle
+Explication flash : Redirection automatique vers l'interface spécifique selon le rôle (Admin ou Technicien).
 ![index](index2.png)
+Code : $color = match($status) { ... }
+Signif : Automatise la couleur des badges selon le statut du ticket (plus rapide qu'un if).
 
-### 2.Gestion des Accès et Sécurité
-![sécurité](sécurité.png)
-![sécurité](sécurité.png)
-
-### 3. Interface Utilisateur
+### 3. La Protection XSS
+Explication flash : Nettoyage des données affichées pour empêcher les attaques par injection de script (XSS).
 ![utilisateur](utilisateur.png)
 ![utilisateur](utilisateur2.png)
+Code : htmlspecialchars($donnees)
+Signif : Empêche le piratage par script (XSS) en neutralisant les balises HTML.
 
-### 4. Interface Technicien
+### 4. La Modification de Statut
+Explication flash : Modification précise d'une donnée existante en ciblant son identifiant unique (ID).
 ![technicien](tech1.png)
+Code : UPDATE tickets SET statut = ?
+Signif : Modifie une information précise en base de données sans toucher au reste.
+
+### 5. Le Système de Déconnexion (Logout)
+Explication flash : Suppression complète des données de session pour fermer l'accès de l'utilisateur en toute sécurité.
 ![technicien](tech2.png)
 
-### 5. Modification du Statut
+
+### 6. La Récupération Sécurisée
+Explication flash : Utilisation d'une requête préparée pour récupérer les détails d'un ticket spécifique via son identifiant unique dans l'URL.
 ![modification](viewtech.png)
+
+### 7. Le "Match" PHP 8
+Explication flash : Emploi de la structure match (nouveauté PHP 8) pour attribuer dynamiquement une couleur au badge selon l'état du ticket.
 ![modification](viewtech2.png)
 
-### 6. Administration & Logs
-![logs](logview.png)
-![logs](logview2.png)
 
 
 
@@ -222,4 +238,3 @@ Pour toute question ou suggestion :
 - https://www.linkedin.com/in/yachar22/
 
 ---
-
