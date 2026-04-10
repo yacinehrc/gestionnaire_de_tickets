@@ -166,7 +166,7 @@ Audit : Système de logs pour tracer les modifications critiques (changements de
 ### 1. La Vérification d'Authentification
 Explication flash : Vérification de la session pour bloquer l'accès aux utilisateurs non connectés.
 ![index](index1.png)
-Code : $stmt->prepare("... WHERE id_t = ?")
+Code : '''$stmt->prepare("... WHERE id_t = ?")'''
 Signif : Bloque les injections SQL en nettoyant les données avant l'exécution.
 
 
