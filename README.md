@@ -109,7 +109,32 @@ Vous pouvez également créer votre propre utilisateur en vous créeant un compt
 
 ## Explication du Code
 
-- - - En cours - - -
+### 1. Architecture Technique
+![index](index1.png)3. Interface Utilisateur5. Modification du Statut
+![index](index2.png)
+
+### 2.Gestion des Accès et Sécurité
+![sécurité](sécurité.png)
+![sécurité](sécurité.png)
+
+### 3. Interface Utilisateur
+![utilisateur](utilisateur.png)
+![utilisateur](utilisateur2.png)
+
+### 4. Interface Technicien
+![technicien](tech1.png)
+![technicien](tech1.png)
+
+### 5. Modification du Statut
+![modification](viewtech.png)
+![modification](viewtech2.png)
+
+### 6. Administration & Logs
+![logs](logview.png)
+![logs](logview2.png)
+
+
+
 
 --- 
 
