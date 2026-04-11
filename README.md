@@ -233,7 +233,7 @@ Pour découvrir notre site :
 
 https://www.yharrache.free.nf/atelier_des_jeux
 
-https://www.osaoui.free.nd/atelier_des_jeux
+https://www.osaoui.free.nf/atelier_des_jeux
 
 -
 
