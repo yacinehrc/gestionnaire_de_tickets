@@ -227,10 +227,19 @@ Ce projet nous a permis de :
 
 ---
 
-##  Contact
-Pour toute question ou suggestion :
+##  Lien
 
-- https://www.linkedin.com/in/oumaima-saoui-4b0a9a387/
-- https://www.linkedin.com/in/yachar22/
+Pour découvrir notre site :
+
+https://www.yharrache.free.nf/atelier_des_jeux
+
+https://www.osaoui.free.nd/atelier_des_jeux
+
+-
+
+Nos LinkedIn :
+ https://www.linkedin.com/in/oumaima-saoui-4b0a9a387/
+
+https://www.linkedin.com/in/yachar22/
 
 ---
